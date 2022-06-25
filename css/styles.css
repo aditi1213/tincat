@@ -1,0 +1,239 @@
+body
+{
+    font-family: "montserrat";
+}
+
+h1
+{
+    color: azure;
+    font-family: "montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2
+{
+    font-family: "montserrat-bold";
+    font-size:  2 rem;
+ color: #FAD4D4;
+
+    text-align: center;
+}
+@media(max-width:650px)
+{
+    h2 
+    {
+        font-size: 0.5 rem;
+        position: relative;
+    }
+}
+
+h3{
+    font-family: "montserrat-bold";
+   
+}
+h4 
+{
+    text-align: center;
+}
+em
+{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p
+{
+    color: black;
+    font-family: "montserrat-bold";   
+    text-align: center;
+}
+
+
+
+
+.container-fluid
+{
+    padding:3% 15% 7% ;
+}
+@media(max-width:1028px)
+{
+    .titleimage{
+        text-align: center;
+        left: 10%
+    }
+}
+
+.navbar
+{   font-family: "Montserrat-black";
+   
+   font-weight: 900;
+   
+    padding: 0.5%  0%  0.5% 14.5% ;
+    
+}
+@media (max-width:720px)
+{
+    padding: 0.5%  0%  0.5% 34.5% ;
+}
+
+.downloadbutton 
+{
+    margin: 5% 3% 5% 0;
+}
+.signup
+{   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FF5D5D;
+}
+
+.titleimage 
+{
+    padding: 12% 0 0 0;
+    width: 40%;
+    height: 100%;
+    transform: rotate(25deg);
+    right: 30%;
+    position:absolute;
+}
+@media(max-width:1028px)
+{
+    .titleimage
+    {
+        position: relative;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
+.cat 
+{
+    color: #FF8C8C;
+    margin-bottom:  1rem;
+    
+}
+.cat:hover
+{
+    color: #FF5D5D;
+
+}
+.nat
+{
+    color: #FAD4D4;
+}
+.nat:hover
+{
+    color: #FF5D5D;
+}
+
+.test1 
+{ 
+    
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.pre
+{
+    width: 12%;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+.car 
+{
+    padding: 6.9%;
+}
+.pcolmn
+{
+    padding: 3% 2%;
+    text-align: center;
+}
+.pri
+{
+    color: black;
+}
+.ctatext
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: azure;
+line-height: 2.5;
+}
+.pricetext
+{
+    color: #FF5D5D;
+}
+.icon
+{
+    padding: 2% 5%;
+    margin: 20px 10px;
+}
+.navtext
+{
+text-align: center;
+padding: 2% 95% ;
+}
+
+
+
+
+
+
+
+
+#features 
+{
+    padding: 7% 15%;
+}
+#title
+{ 
+    text-align: center;
+    background-color: #EF9F9F;
+}
+#features
+{
+    background-color: #FAD4D4;
+    z-index: 1;
+    position: relative;
+    
+}
+ 
+#testimonials
+{
+   
+    background-color: #EF9F9F ;
+ 
+}
+
+#press 
+{
+    background-color: #EF9F9F;
+    text-align: center;
+    padding-bottom: 13%;
+    padding-top: 25%;
+   
+
+}
+@media(max-width:950px)
+{
+    #press
+    {
+        padding-top: 55%;
+    }
+}
+#pricing
+{
+    padding: 100px;
+    background-color: #FAD4D4;
+}
+#cta
+{
+    text-align: center;
+    background-color: #EF9F9F;  
+    padding: 7% 15%; 
+}
+#footer
+{
+    background-color: #FAD4D4;
+    text-align: center;
+    padding-bottom: 2%;
+}
